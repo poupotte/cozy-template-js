@@ -6,7 +6,7 @@ module.exports = function (compound) {
 
   if ('development' === compound.app.get('env')) {
     developmentModules = [
-      '{{ VIEWENGINE }}-ext',
+      //'{{ VIEWENGINE }}-ext',
       'seedjs',
       'co-generators'
     ]
